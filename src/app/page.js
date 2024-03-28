@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -6,6 +5,7 @@ export default function Home() {
     <main className={styles.main}>
       <h1 className={styles.headline}>Trips API</h1>
       <p className={styles.subhead}>The documentation</p>
+
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
