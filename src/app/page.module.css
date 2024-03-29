@@ -11,9 +11,6 @@
   font-size: 3rem;
 }
 
-.subhead {
-}
-
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -23,6 +20,10 @@
   display: grid;
   grid-template-columns: repeat(1, minmax(25%, auto));
   width: 100%;
+}
+
+.grid li {
+  list-style: none;
 }
 
 .card {
