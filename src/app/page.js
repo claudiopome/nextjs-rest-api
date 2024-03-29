@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import endpoints from "./data";
 
 export default function Home() {
   return (
